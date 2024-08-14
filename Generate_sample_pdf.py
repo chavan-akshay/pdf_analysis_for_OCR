@@ -1,3 +1,8 @@
+""" Generate long Fake-PDF data representative of a real-world scenario
+    - machine-readable vs not machine-readable
+    - rotated vs not rotated
+    - 5 different document types """
+
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
